@@ -64,7 +64,7 @@ TEXT SELECTION STYLES
  color:#fff;
 }
 a {
-	color: #E095B4;
+	color: #ffffff;
 	outline: none;
 }
 /******************************************************************
@@ -243,10 +243,10 @@ blockquote {
 }
 .readmore {
 	font-family: Times, 'Droid Sans', Verdana, Arial, sans-serif;
-	font-size: 11px;
+	font-size: 14px;
 	text-decoration: none;
-	color: #E095B4;
-	float: right;
+	color: #ffffff;
+	float: left;
 	margin-right: 0px;
 	margin-top: 0px;
 }
@@ -331,7 +331,7 @@ Header & Menu CSS
 }
 #header-text a {
 	font-family: Times, 'Droid Serif', Verdana, Arial, sans-serif;
-	color: #d8d8d8;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 7pt;
 }
