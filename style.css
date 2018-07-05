@@ -84,37 +84,39 @@ article.cutout {
 section.two {
     margin-left: 8%;
     margin-right: 15%;
+    margin-bottom: 22%; 
 }
 
 section.three {
     margin-left: 8%;
     margin-right: 15%;
+    margin-bottom: 22%;
 }
 
 section.five {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: -9%;
+    margin-top: 0%;
+    margin-bottom: 22%;
 }
 
 section.six {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: -9%
+    margin-top: 0%;
+    margin-bottom: 22%;
 }
 
 section.eight {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: 14%;
-    margin-bottom: 7%;
+    margin-bottom: 15%;
 }
 
 section.nine {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: 14%;
-    margin-bottom: 7%;
+    margin-bottom: 15%;
 }
 
 h1 {
@@ -233,11 +235,8 @@ h2.process {
 }
 
 iframe.close {
-    margin-top: -15%
-}
-
-iframe.close1 {
-    margin-top: -23%;
+    margin-top: -15%;
+    margin-bottom: -23%;
 }
 
 @media screen and (max-width: 600px) {
