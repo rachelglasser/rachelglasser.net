@@ -119,6 +119,12 @@ section.nine {
     margin-bottom: 15%;
 }
 
+section.twelve {
+    margin-left: 8%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
 h1 {
     font-weight: 700;
     font-size: 1.7em;
@@ -154,6 +160,10 @@ img.summer2018 {
 }
 
 img.paintdraw {
+    width: 90%;
+}
+
+img.petants {
     width: 90%;
 }
 
@@ -230,6 +240,13 @@ img.blockposter {
     margin-left: -12%
 }
 
+img.antgif {
+    width: 50%;
+    margin-left: 20%;
+    margin-right:30%;
+    margin-bottom: 9%;
+}
+
 h2.process {
     margin-top: 45%;
 }
@@ -295,6 +312,7 @@ iframe.close {
     h2.close {
         margin-left: -2em;
     }
+    
     
     img.block {
         margin-top: 3em;
