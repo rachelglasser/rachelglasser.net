@@ -263,84 +263,30 @@ iframe.close {
 
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     article.cssgrid {
         display: block;
         float: none;
         width: 100%;
     }
     
-    img.truck {
-        margin-top: -5%;
-    }
-    
     img.cutout {
-        margin-top: 40%;
+        margin-top: 30%;
         margin-left: -35%;
-        width: 100%;
+        width: 140%;
     }
     
-   h1.rachel {
-        margin-top: -4%;
+    img.truck {
+        margin-left: -100em;
+        margin-top: -100em;
     }
     
-    img.paintdraw {
-        margin-top: 2em;
-        margin-left: -2em;
+    article.nav {
+        margin-left: -100em;
+        margin-top: -100em;
     }
     
-    h2.juul {
-        margin-left: -2em;
+    h1.rachel {
+        margin-left: -100em;
+        margin-top: -100em;
     }
-    
-    img.juul {
-        margin-top: 2em;
-        margin-left: -2em;
-    }
-    
-    h2.paintdraw {
-        margin-left: -2em;
-    }
-    
-    img.cmualumn {
-        margin-top: -2em;
-        margin-left: -2em;
-    }
-    
-    h2.cmualumn {
-        margin-left: -2em;
-    }
-    
-    img.close {
-        margin-top: 3em;
-        margin-left: -2em;
-    }
-    
-    h2.close {
-        margin-left: -2em;
-    }
-    
-    
-    img.block {
-        margin-top: 3em;
-        margin-left: -2em;
-    }
-    
-    h2.block {
-        margin-left: -2em;
-        margin-bottom: 4em;
-    }
-    
-    img.normal1 {
-        margin-top: 55%;
-        margin-left: -37%;
-    }
-    
-    img.normal {
-        margin-left: -37%;
-    }
-    
-    img.long {
-        margin-left: -37%
-    }
-
