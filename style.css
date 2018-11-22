@@ -96,14 +96,14 @@ section.three {
 section.five {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: 0%;
+    margin-top: -15%;
     margin-bottom: 22%;
 }
 
 section.six {
     margin-left: 8%;
     margin-right: 15%;
-    margin-top: 0%;
+    margin-top: -15%;
     margin-bottom: 22%;
 }
 
@@ -156,6 +156,10 @@ h2 a:hover {
 }
 
 img.summer2018 {
+    width: 90%;
+}
+
+img.plastic {
     width: 90%;
 }
 
