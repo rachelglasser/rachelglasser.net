@@ -187,6 +187,11 @@ img.cmualumn {
     width: 90%;
 }
 
+img.talltowers {
+    width: 90%;
+    margin-top: -5%;
+}
+
 img.truck {
     width: 90%;
     margin-left: -12%;
@@ -223,15 +228,28 @@ img.long {
     margin-right: 5%;
 }
 
+img.bookcover {
+    width: 40%;
+    margin-top: -10%;
+    margin-left: 42%;
+    margin-bottom: 5%;
+}
+
+img.book {
+    width: 75%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
 img.hilary {
     width: 90%;
     margin-bottom: 5%;
 }
 
 img.rachel {
-    width: 30%;
-    margin-top: -10%;
-    margin-bottom: 2%;
+    width: 27%;
+    margin-top: -12%;
+    margin-bottom: 0%;
     margin-left: 5%;
 }
 
