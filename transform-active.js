@@ -11,6 +11,13 @@ $(".item").each(function(index, item) {
 
 var front_z_index = 0;
 
+function openLink(link, itemId) {
+	if ($(itemId).hasClass('noclick')) {
+		return
+	}
+	window.open(link,'_blank');
+}
+
 // Go through all of the items
 $(".item").each(function(index, item) {
 	// Changes the positions to hard-code the starting positions (so that everything isn't messed up with drag/drop)
@@ -91,10 +98,15 @@ $('.item').draggable({
 	start: function(event, ui) {
 		front_z_index++;
 		$(this).css('z-index', front_z_index);
+		if ($(this)[0].classList.contains('open')
+			|| $(this)[0].classList.contains('linkitem')) {
+			$(this).addClass('noclick');
+		}
 	},
 	stop: function(event, ui) {
 		$(this).css('height','auto');
-		if ($(this)[0].classList.contains('open')) {
+		if ($(this)[0].classList.contains('open')
+			|| $(this)[0].classList.contains('linkitem')) {
 			$(this).addClass('noclick');
 		}
 		var currentItem = $(this);
