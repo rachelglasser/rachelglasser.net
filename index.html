@@ -36,13 +36,13 @@
 
 	<div class="item" id="item2">
 		<button> paintings </button>
-		<img src="images/painting1.JPG"/>
+		<img src="images/painting1.jpg"/>
 		<img src="images/painting2.jpg"/>
-		<img src="images/painting3.JPG"/>
+		<img src="images/painting3.jpg"/>
 		<img src="images/painting4.jpg"/>
 		<img src="images/painting5.jpg"/>
-		<img src="images/painting6.JPG"/>
-		<img src="images/painting7.JPG"/>
+		<img src="images/painting6.jpg"/>
+		<img src="images/painting7.jpg"/>
 	</div>
 
 	<div class="item" id="item3">
@@ -101,7 +101,7 @@
 		<img src="images/candle2.png"/>
 		<img src="images/candle3.png"/>
 		<img src="images/candle4.png"/>
-		<img src="images/candle5.JPG"/>
+		<img src="images/candle5.jpg"/>
 	</div>
 
 	<div class="item" id="item6">
@@ -110,21 +110,25 @@
 		<img src="images/collage2.png"/>
 	</div>
 
-	<div class="item" id="item7">
-		<button onclick="window.open('https://vimeo.com/user79972976','_blank')">vimeo</button>
+	<div class="item linkitem" id="item7">
+		<button onclick="openLink('https://vimeo.com/user79972976','#item7')">vimeo</button>
 	</div>
 
-	<div class="item" id="item8">
-		<button onclick="window.open('graphicdesign.html','_blank')">graphic design </button>
+	<div class="item linkitem" id="item8">
+		<button onclick="openLink('graphicdesign.html', '#item8')">graphic design </button>
 	</div>
 
-	<div class="item" id="item9">
-		<button onclick="window.open('images/resume.pdf','_blank')">resume</button>
+	<div class="item linkitem" id="item9">
+		<button onclick="openLink('images/resume.pdf','#item9')">resume</button>
 	</div>
 
 	<div class="item" id="item10">
 		<button> rachel glasser </button>
 		<img src="images/rachelglasser.jpg"/>
+	</div>
+
+	<div id="mobilewarning">
+		<h1> Site only available on desktop. </h1>
 	</div>
 
     <script type="text/javascript" src="transform-active.js"></script>
