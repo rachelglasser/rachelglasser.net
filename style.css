@@ -80,6 +80,10 @@ p {
     font-weight: 300;
 }
 
+i {
+    font-style: italic;
+}
+
 .gd {
     margin-top: -25%;
 }
@@ -95,10 +99,16 @@ p {
 }
 
 .item {
-    width: 15%;
+    max-width: 15%;
+    width: -webkit-fill-available;
     padding: .5%;
     float: left;
     cursor: cell;
+    transition: max-width 2s;
+}
+
+.item button:focus {
+    outline: none;
 }
 
 .item button {
@@ -114,11 +124,24 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.item.open:not(.linkitem) {
+    max-width: 35%;
+    transition: max-width 2s;
+}
+
+.item.open img {
+    max-width: 85%;
+    transition: max-width 2s;
+    padding-bottom: 7%;
+}
+
 .item img {
-    width:0;
+    max-width: 0;
+    width: -webkit-fill-available;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: max-width 2s;
 }
 
 .linkitem {
@@ -127,6 +150,10 @@ p {
 
 .lb-outerContainer {
     background: transparent;
+}
+
+#item0 {
+    background-color: #c7e576;
 }
 
 #item1 {
@@ -170,9 +197,6 @@ p {
     background-color: #c7e576;
 }
 
-#item11 {
-    background-color: #51d5e0;
-}
 
 #mobilewarning {
     visibility: hidden;
@@ -218,11 +242,15 @@ p {
     flex-direction: column;
     margin-right: 2%;
     margin-left: 2%;
-    padding-top: 2%;
     width: 40%;
     left: 0;
     top: 0;
     font-family:'Roboto Condensed',sans-serif;
+}
+
+.project:first-child .documentation {
+    margin-top: .5%;
+    margin-bottom: -1.5%;
 }
 
 .graphicdesign .documentation {
@@ -230,7 +258,6 @@ p {
     flex-direction: column;
     width: 60%;
     margin-right: 2%;
-    padding-top: 2%;
 }
 
 .graphicdesign img {
