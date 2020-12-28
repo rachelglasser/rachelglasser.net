@@ -130,9 +130,9 @@ i {
 }
 
 .item.open img {
-    max-width: 85%;
+    max-width: 91%;
     transition: max-width 2s;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
 }
 
 .item img {
