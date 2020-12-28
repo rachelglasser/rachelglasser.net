@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+	.graphicdesign .project {
+		flex-direction: column;
+	}
+
+	.graphicdesign .sidepane {
+		position: relative;
+		width: 100%;
+	}
+
+	.graphicdesign .documentation {
+		position: relative;
+	    width: 100%;
+	    margin-left: 6px;
+	    padding-right: 14px;
+	}
+
+	.item.open {
+		max-width: 100%
+	}
+
+	.item {
+		max-width: 100%;
+		width: auto;
+	    margin: 22px;
+	    float: inherit;
+	    cursor: cell;
+	}
+}
