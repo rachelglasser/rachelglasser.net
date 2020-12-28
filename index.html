@@ -3,6 +3,7 @@
 <head>
     <title>rachel glasser</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="small-screen.css">
     <link rel="stylesheet" href="https://use.typekit.net/acj7orf.css">
     <link rel="icon" href="images/spider.png" />
     <link href="lightbox2-2.11.2/src/css/lightbox.css" rel="stylesheet" />
@@ -12,7 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ykf7wxo.css">
 </head>
-<body> 
+<body>
+	<div class="item linkitem" id="item0">
+		<button onclick="openLink('https://www.rachelglasser.store/', '#item0')">store</button>
+	</div>
+
 	<div class="item" id="item1">
 		<button> drawings </button>
 		<img src="images/drawing1.jpg"/>
@@ -80,18 +85,11 @@
 		<button onclick="openLink('images/resume.pdf','#item9')">resume</button>
 	</div>
 
-	<div class="item" id="item10">
+<!-- 	<div class="item" id="item10">
 		<button> rachel glasser </button>
 		<img src="images/rachelglasser.jpg"/>
-	</div>
-	
-	<div class="item linkitem" id="item11">
-		<button onclick="openLink('https://www.rachelglasser.store/', '#item11')">store</button>
-	</div>
+	</div> -->
 
-	<div id="mobilewarning">
-		<h1> Site only available on desktop. </h1>
-	</div>
 
     <script type="text/javascript" src="transform-active.js"></script>
     <script src="lightbox2-2.11.2/src/js/lightbox.js"></script>
