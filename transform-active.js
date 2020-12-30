@@ -12,7 +12,7 @@ $(".item").each(function(index, item) {
 	});
 });
 
-var isMobile = $(window).width() > 600;
+var isDesktop = $(window).width() > 600;
 var front_z_index = 0;
 
 // To use in onclick functions to make sure it doesn't open on drag stop
@@ -25,7 +25,7 @@ function openLink(link, itemId) {
 
 // Go through all of the items
 $(".item").each(function(index, item) {
-	if (isMobile) {
+	if (isDesktop) {
 		// Changes the positions to hard-code the starting positions (so that everything isn't messed up with drag/drop)
 		item.style = 'left:'+orig_coordinates[index].left+'px; top: '+orig_coordinates[index].top+'px; position: absolute;';
 	}
@@ -46,7 +46,7 @@ $(".item").each(function(index, item) {
 	})
 });
 
-if (isMobile) {
+if (isDesktop) {
 	// Make the items draggable
 	$('.item').draggable({ 
 		cancel: true,
