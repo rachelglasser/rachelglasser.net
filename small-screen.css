@@ -15,8 +15,13 @@
 	    padding-right: 14px;
 	}
 
+	.item.open:not(.linkitem) {
+		max-width: 100%;
+	}
+
 	.item.open {
-		max-width: 100%
+		max-width: 100%;
+		width: -webkit-fill-available;
 	}
 
 	.item {
